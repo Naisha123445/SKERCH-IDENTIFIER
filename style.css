@@ -1,0 +1,41 @@
+body{
+    background-color: lavender;
+}
+
+h1{
+    color: pink;
+background-color: indigo;
+}
+
+#show_sketch{
+    float: right;
+    background-color: yellow;
+    color: black;
+}
+
+canvas{
+    border:5px solid indigo;
+    border-radius: 20px;
+    margin-top: 50px;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example{
+from{
+    box-shadow: 3px 3px royalblue, -1em 0 .4em cyan;
+    
+    }
+    to{
+        box-shadow: 3px 3px rgb(187, 5, 172), -1em 0 .4em rgb(253, 47, 219);
+        
+        }
+    
+}
+
+p{
+font-size: 20px;
+padding-top: 10px;
+color:darkblue;
+}
